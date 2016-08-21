@@ -54,8 +54,8 @@ return array(
 
         'mysql' => array(
             'driver'    => 'mysql',
-            'host'      => 'localhost',
-            'database'  => 'database',
+            'host'      => '127.0.0.1',
+            'database'  => 'test',
             'username'  => 'root',
             'password'  => '',
             'charset'   => 'utf8',
@@ -109,16 +109,16 @@ return array(
     |
     */
 
-    'redis' => array(
+    // 'redis' => array(
 
-        'cluster' => false,
+    //     'cluster' => false,
 
-        'default' => array(
-            'host'     => '127.0.0.1',
-            'port'     => 6379,
-            'database' => 0,
-        ),
+    //     'default' => array(
+    //         'host'     => '127.0.0.1',
+    //         'port'     => 6379,
+    //         'database' => 0,
+    //     ),
 
-    ),
+    // ),
 
 );
